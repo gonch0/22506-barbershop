@@ -9,11 +9,10 @@ body {
   color: #f7f4f1;
   font-style: normal;
 
-  background-color: @bg-darkgrey;
+  background-color: $bg-darkgrey;
 }
 
 img {
   max-width: 100%;
   height: auto;
 }
-

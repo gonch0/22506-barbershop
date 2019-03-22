@@ -1,0 +1,48 @@
+.page-header {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid red;
+  
+}
+
+.page-header__logo {
+  //height: 85px;
+  background-color: #242424;
+  padding: 23px 0;
+}
+
+
+.page-header__logo-image {
+  
+}
+
+
+
+
+@media (min-width: $tablet-width) {
+  .page-header {
+    background-color: black;
+  }
+  
+  /*.page-header__wrapper {
+    min-width: $tablet-width;
+    margin: 0 auto;
+  }*/
+  
+  .page-header__logo {
+    order: 2;
+    
+  }
+}
+
+
+@media (min-width: $desktop-width) {
+  .page-header__logo {
+    //height: 648px;
+  }
+}
+
+
+.page-header__logo {
+  //background: rgba(255, 255, 255, 0.5);
+}
