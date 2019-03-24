@@ -40,6 +40,7 @@
   "dependencies": {
     "gulp-sass": "^4.0.2",
     "gulp-scss": "^1.4.0",
+    "pixel-glass": "^1.0.13",
     "scss": "^0.2.4"
   }
 }
